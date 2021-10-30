@@ -73,8 +73,7 @@ void Graph::tarjanArticulationPoints()
 }
  
 int main()
-{
-     
+{     
     cout << "Articulation points in given graph \n";
     ifstream infile("tarjan_input.txt");
     int n;
